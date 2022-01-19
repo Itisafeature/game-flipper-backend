@@ -14,11 +14,6 @@ const sequelize = new Sequelize('game-flipper', 'admin', 'master pass', {
     dialect: 'postgres'
 });
 
-newFunc();
-
-
-
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
